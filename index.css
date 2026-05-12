@@ -3,3 +3,75 @@
     margin: 0;
     padding: 0;
 }
+
+
+.box {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding : 10px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+}
+
+.card div {
+    position: relative;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+
+}
+
+/* // responsive design for mobile devices */
+
+/* @media (max-width: 768px) {
+    .box {
+        background-color: lime;
+    }
+}
+
+@media (max-width: 520px) {
+    .box {
+        background-color: rgb(169, 37, 37);
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+ */
+
+
+ @media (max-width: 480px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+ }
+
+ /* @media (max-width: 720px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+ } */
